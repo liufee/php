@@ -8,7 +8,7 @@
 
 namespace Feehi;
 
-use Feehi\lib\Http\HttpBase;
+use Feehi\lib\http\HttpBase;
 
 class Http extends HttpBase
 {
