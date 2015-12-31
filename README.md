@@ -28,7 +28,7 @@ This is a php lib, contains common php tools
         ]
    }
   2.run command "composer update"
-   !['composer install feehi/standard'](http://img10.qiniudn.com/nodeblog/2015-12-31-03-42-14.png)
+   ![composer-install-feehi-standard](http://img10.qiniudn.com/nodeblog/2015-12-31-03-42-14.png)
 ```
 
 ##Usage
@@ -43,4 +43,5 @@ This is a php lib, contains common php tools
   $res = $http->get("http://blog.feehi.com");
   $res = $http->post("http://blog.feehi.com", ['username'=>'xxx','password'=>'yyy']);
   var_dump($res);
+  ![feehi-standard-http-eg](http://img10.qiniudn.com/nodeblog/2015-12-31-03-49-58.png)
 ```
