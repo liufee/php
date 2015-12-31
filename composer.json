@@ -1,0 +1,24 @@
+{
+    "name": "feehi/standard",
+    "type": "library",
+    "description": "A library provided by wfee",
+    "keywords": ["feehi","library","liufee"],
+    "homepage": "http://blog.feehi.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liufee",
+            "email": "job@feehi.com",
+            "homepage": "http://blog.feehi.com",
+            "role": "Developer"        
+        }
+    ],
+    "require:": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Feehi": "src/"
+        }
+    }
+}
