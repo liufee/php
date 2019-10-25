@@ -13,12 +13,17 @@
             "role": "Developer"        
         }
     ],
-    "require:": {
-        "php": ">=5.4"
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5"
     },
     "autoload": {
         "psr-0": {
-            "Feehi": "src/"
+            "Feehi": "src/",
+            "FeehiTest": "src/Feehi/test"
         }
     }
 }
