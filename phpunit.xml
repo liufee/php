@@ -1,0 +1,7 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Promises">
+            <directory>./src/Feehi/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit >

@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../../../../../../vendor/autoload.php';
 
+namespace FeehiTest;
+
 use Feehi\Http;
 
 $http = new Http( ['userAgent'=>'Feehi browser'] );
